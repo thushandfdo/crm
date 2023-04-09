@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.test {
+    background-color: gray;
+    color: red;
+    font-size: large
+}
+
+.p1 {
+    @extend .test;
+    color: green;
+}
+
+.p2 {
+    @extend .test;
+    background-color: blue;
+}
